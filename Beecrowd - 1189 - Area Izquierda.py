@@ -5,8 +5,8 @@ Link:https://www.beecrowd.com.br/judge/es/problems/view/1189
 La idea de esta solución es guardar los números leídos en una matriz de 12x12, luego recorrer los números que se encuentran en las posiciones
 i,j de la matriz que cumplen las siguientes condiciones:
 i>0 y i<11
-Si i>0 y i<6, j>=0 y j<i
-Si i>6 y i<11, j>-0 y j<11-i
+Si i>=1 y i<6, j>=0 y j<i
+Si i>=6 y i<11, j>=0 y j<11-i
 
 Cada número recorrido suma a una variable de suma total y aumenta en 1 la variable correspondiente a la cantidad
 de números recorridos. Luego se imprime el promedio o la suma de estos números recorridos dependiendo del carácter leído inicialmente.
